@@ -48,10 +48,10 @@ html{
 
 body {
 
-    backdrop-filter: blur(3.5px);
+    backdrop-filter: blur(6.5px);
     -webkit-backdrop-filter: blur(3.5px);
     height: 100vh;
-    background-color: #121212;;
+    background-image: url('https://i.pinimg.com/originals/ff/56/bb/ff56bbb264d3afb1b18e6646f4d71f6f.gif');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -105,9 +105,6 @@ header {
   }
 }
 
-z {
-    color: rgb(180, 140, 53);
-}
 x {
     color: rgb(180, 53, 53);
 }
@@ -152,7 +149,7 @@ x {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
     padding-block: 0.5rem;
     padding-inline: 1.25rem;
-    background-color: #581414;
+    background-color: rgb(146, 35, 35);
     border-radius: 9999px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -352,14 +349,14 @@ iframe {
     /*progreso de las diferentes lenguajes*/
     width: 90%;
     animation-delay: 0.1s;
-    background: rgb(173, 41, 41);
+    background: rgb(177, 39, 39);
   }
   
   .skill-per.chem {
     /*progreso de las diferentes lenguajes*/
     width: 75%;
     animation-delay: 0.1s;
-    background: rgb(255, 173, 65);
+    background: rgb(146, 35, 35);
   }
   
   .skill-per.phys {
@@ -645,7 +642,7 @@ iframe {
 @media (max-width:431px) {
 
   body {
-    width: fit-content;
+
     margin:0;
     padding:0;
   }
